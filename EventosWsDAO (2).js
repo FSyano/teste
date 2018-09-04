@@ -16,7 +16,7 @@ EventosWsDAO.prototype.verificarFeriado = function(id_posto, data, res, next) {
 function loop(total, qtdDias, diaCorrente, id_posto, res) {
     var total = total;
     var diaTeste;
-    var feriado = 0;
+    var feriado = 0;fdsdsf
 
     var dataInicio = new Date(diaCorrente);
     diaTeste = new Date(dataInicio.setDate(dataInicio.getDate() + total));
