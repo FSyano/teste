@@ -1,0 +1,6 @@
+applications:
+  - name: server-copa
+    memory: 128M
+    command: npm start
+    instances: 1
+    buildpack: sdk-for-nodejs
